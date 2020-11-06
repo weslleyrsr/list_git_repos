@@ -1,0 +1,46 @@
+.repositories-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 48px 0 48px;
+}
+
+.repositories-item-wrapper {
+    width: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.repositories-item {
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    padding: 16px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+}
+
+.repositories-item > div > a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.repositories-item > div > a:hover {
+    text-decoration: underline;
+}
+
+.repositories-item > div > svg {
+    margin-right: 8px;
+}
+
+.repositories-item > p {
+    font-size: 12px;
+    color: #586069;
+    flex: 1 0 auto;
+}
+
+@media (max-width:900px) {
+    .repositories-item-wrapper {
+        width: 100%;
+    }
+}
