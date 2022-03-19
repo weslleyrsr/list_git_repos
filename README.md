@@ -6,7 +6,7 @@ Este repositorio foi criado para um teste de emprego para desenvolvedor react.
 ## Setup
 Para configurar seu App, após clonar o repositório
 ```bash
-git clone https://github.com/H0tz/list_git_repos.git
+git clone https://github.com/weslleyrsr/list_git_repos.git
 ```
 Você deve rodar o seguinte comando em seu terminal para rodar pela primeira vez o app
 ```bash
