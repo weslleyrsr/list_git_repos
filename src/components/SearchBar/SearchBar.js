@@ -36,7 +36,7 @@ const useStyles = makeStyles({
 });
 
 
-export default function Searchbar(props) {
+export function Searchbar(props) {
   const classes = useStyles();
 
   return (

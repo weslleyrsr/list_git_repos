@@ -2,7 +2,7 @@
 
 import React from 'react';
 import axios from 'axios';
-import Searchbar from '../SearchBar';
+import { Searchbar } from '../SearchBar';
 import Repositories from '../Repositories';
 import { css } from "@emotion/core";
 import ClipLoader from "react-spinners/ClipLoader";
